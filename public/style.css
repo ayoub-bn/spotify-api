@@ -1,0 +1,64 @@
+#login,
+#loggedin {
+    display: none;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace
+}
+
+.h1spot {
+    font-size: 50px;
+    margin: 30px 0;
+}
+
+.footerp {
+    margin-top: 10px;
+}
+
+.name {
+    font-weight: bold;
+}
+
+#user-profile {
+    font-size: 20px;
+}
+
+.search-main {
+    width: 60%;
+    margin: 20px auto;
+}
+
+.gen-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.desc {
+    font-weight: 100;
+    font-size: 20px;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.small-desc {
+    font-weight: 50;
+    font-size: 15px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.artist,
+.track,
+.album {
+    width: 80%;
+    margin: 10px auto;
+}
+
+.text-overflow {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 500px;
+}
